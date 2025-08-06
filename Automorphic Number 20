@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int square = n * n;
+            if (n % 10 != square % 10) {
+                System.out.println("Not Automorphic");
+            }else
+
+        System.out.println("Automorphic");
+    }
+}
